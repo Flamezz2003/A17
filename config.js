@@ -3,12 +3,12 @@ const chalk = require("chalk");
 require("dotenv").config();
 
 // Default values for global variables
-global.available = process.env.AVAILABLE || true;
+global.available = process.env.AVAILABLE || false;
 global.autoReadAll = process.env.AUTO_READ_ALL || false;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || true;
+global.autoTyping = process.env.AUTO_TYPING || false;
 global.autoRecord = process.env.AUTO_RECORD || false;
 global.groupevent = process.env.GROUPEVENT || false;
 global.statusseen = process.env.STATUSSEEN || true;
@@ -37,14 +37,14 @@ global.OwnerName = process.env.OWNER_NAME || "Flamezz";
 global.BotName = process.env.BOT_NAME || "A17";
 global.packname = process.env.PACK_NAME || "A17 Bot";
 global.author = "By: Flamezz";
-global.BotSourceCode = "https://github.com/Kai0071/A17";
+global.BotSourceCode = "https://github.com/Flamezz254/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
 
 //
 global.openAiAPI = process.env.OPENAI_API || "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";
-global.location = process.env.LOCATION || "West Bengal, India";
-global.reactmoji = process.env.REACT_MOJI || "❤️";
+global.location = process.env.LOCATION || "Nairobi, Kenya";
+global.reactmoji = process.env.REACT_MOJI || "👾";
 global.themeemoji = process.env.THEME_EMOJI || "💖";
 global.vidmenu = { url: process.env.VID_MENU_URL || 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
 
